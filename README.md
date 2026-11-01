@@ -22,7 +22,7 @@ Bài thực hành Software Testing: phân tích requirement → test condition �
 ## Chạy từ môi trường sạch (local)
 
 ```bash
-git clone <URL-repo-của-bạn> && cd STLab02_EduCommerce
+git clone https://github.com/binhbuithanhk5-a11y/STLab02_EduCommerce.git && cd STLab02_EduCommerce
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python test_runner.py test_cases.csv --out reports
