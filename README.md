@@ -30,9 +30,7 @@ python test_runner.py sample_data/broken_cases.csv --out reports_selfcheck   # k
 python dashboard_gradio.py            # mở http://127.0.0.1:7860
 ```
 
-## Chạy trên Google Colab
 
-Mở `STLab02_EduCommerce.ipynb` trên Colab (File → Upload notebook hoặc Open from GitHub) và chạy lần lượt các cell. Cell đầu tiên `git clone` repository; sửa biến `REPO_URL` thành URL repo của bạn.
 
 ## Quy ước trạng thái
 
